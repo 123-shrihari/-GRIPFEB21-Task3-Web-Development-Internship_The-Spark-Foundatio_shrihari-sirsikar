@@ -1,0 +1,337 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+margin: 3px 12px;
+
+
+}
+
+#logo img{
+    width: 50px;
+height: 53px;
+margin: 2px 1px;
+}
+/* list style*/
+
+#home ul{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+}
+
+#home::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 11%;
+    width: 100%;
+    z-index: -4;
+    opacity: 0.9;
+}
+
+#home ul li{
+    display: flex;
+  
+list-style-type: none; 
+font-size: 1.0rem;
+
+}
+
+#home ul li a{
+    display: block;
+color:white;
+padding: 10px 20px;
+border-radius: 100px;
+text-decoration: none; 
+
+}
+#home ul li a:hover{
+    color: black;
+    background-color: rgb(245, 241, 241);
+}
+
+
+
+
+#home1{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home1::before{
+    content: "";
+    background: url(/img/indianss5.jpg) no-repeat center center/cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+#home1 h1{
+    color: black;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+
+#home1 p{
+    color:black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+.h-primary{
+    font-size: 3rem;
+    padding: 20px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 20px;
+}
+.button{
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:black;
+    color: white;
+    border: 2px solid white;
+    margin: 17px;
+    cursor: pointer;
+}
+
+/*foot*/
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+/*SERVICE SEC*/
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #6f7775;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:22%;
+    margin-bottom:0%
+  }
+  
+  #slider-wrapper {
+    width: 940px;
+    height: 470px;
+    margin: 50px auto;
+    position: relative;
+    margin-bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  #s1 {
+    padding: 6px;
+    background: #000000;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s2 {
+    padding: 6px;
+    background: #000000;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s3 {
+    padding: 6px;
+    background: #000000;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s4 {
+    padding: 6px;
+    background: #000000;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  #s1:hover,
+  #s2:hover,
+  #s3:hover,
+  #s4:hover {
+    opacity: .50;
+  }
+  
+  .inner-wrapper {
+    width: 940px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  
+  .control {
+    display: none;
+  }
+  
+  #Slide1:checked ~ .overflow-wrapper {
+    margin-left: 0%;
+  }
+  
+  #Slide2:checked ~ .overflow-wrapper {
+    margin-left: -100%;
+  }
+  
+  #Slide3:checked ~ .overflow-wrapper {
+    margin-left: -200%;
+  }
+  
+  #Slide4:checked ~ .overflow-wrapper {
+    margin-left: -300%;
+  }
+  
+  #Slide1:checked + #s1 {
+    opacity: 1;
+  }
+  
+  #Slide2:checked + #s2 {
+    opacity: 1;
+  }
+  
+  #Slide3:checked + #s3 {
+    opacity: 1;
+  }
+  
+  #Slide4:checked + #s4 {
+    opacity: 1;
+  }
+  
+  .overflow-wrapper {
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 25%;
+    float: left;
+  }

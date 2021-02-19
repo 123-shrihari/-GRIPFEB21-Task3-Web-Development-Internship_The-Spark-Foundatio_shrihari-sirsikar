@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "how-to-integrate-razorpay-payment-gateway-master",
+			"path": "..\\..\\..\\..\\Downloads\\how-to-integrate-razorpay-payment-gateway-master"
+		},
+		{
+			"name": "About",
+			"path": "..\\..\\..\\..\\Downloads\\About"
+		},
+		{
+			"name": "htmlcss1stweb",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcss1stweb",
+		"scm.alwaysShowRepositories": true
+	}
+}
